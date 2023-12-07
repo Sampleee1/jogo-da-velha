@@ -1,14 +1,8 @@
-import './App.css';
+import Sobre from "./objects/Sobre"
 
 function App() {
   return (
-    <div className="App">
-
-      <header class="main-header">
-
-      <a className="action" href='to-do'>SOBRE</a>
-      </header>
-    </div>
+    <Sobre />
   );
 }
 
